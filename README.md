@@ -17,9 +17,7 @@ Build a simple signature-based antivirus scanner using:
 
 1️⃣ Update System
 
-Open terminal and run:
-
-sudo apt update && sudo apt upgrade -y
+Open terminal and run: sudo apt update && sudo apt upgrade -y
 
 
 2️⃣ Install Python (if not installed)
