@@ -16,21 +16,17 @@ Build a simple signature-based antivirus scanner using:
 
 
 🔍 How It Works
-
 Loads YARA rules
-
 Scans each file in selected directory
-
 Matches binary patterns against malware signatures
-
 Generates SHA256 hash
-
 Checks file hash with VirusTotal
-
 Displays detection results
 
 🐉 Installation (Kali Linux)
+
 1️⃣ Update System
+
 sudo apt update && sudo apt upgrade -y
 
 
