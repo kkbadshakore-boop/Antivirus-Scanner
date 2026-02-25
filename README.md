@@ -26,6 +26,7 @@ Displays detection results
 
 🐉 Installation (Kali Linux)
 
+
 1️⃣ Update System
 
 sudo apt update && sudo apt upgrade -y
