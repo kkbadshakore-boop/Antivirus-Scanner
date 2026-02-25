@@ -14,6 +14,7 @@ Build a simple signature-based antivirus scanner using:
 - Recursive directory scanning
 
 🐉 How to Run in Kali Linux
+
 1️⃣ Update System
 
 Open terminal and run:
@@ -23,9 +24,7 @@ sudo apt update && sudo apt upgrade -y
 
 2️⃣ Install Python (if not installed)
 
-Kali usually has Python3 preinstalled. Check:
-
-python3 --version
+Kali usually has Python3 preinstalled. Check: python3 --version
 
 If not installed:
 
