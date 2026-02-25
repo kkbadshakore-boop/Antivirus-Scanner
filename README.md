@@ -23,6 +23,8 @@ Generates SHA256 hash
 Checks file hash with VirusTotal
 Displays detection results
 
+
+
 🐉 Installation (Kali Linux)
 
 1️⃣ Update System
