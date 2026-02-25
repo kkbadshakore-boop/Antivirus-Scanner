@@ -38,7 +38,7 @@ sudo apt install python3 python3-pip yara -y
 
 3️⃣ Clone Repository
 
-git clone https://github.com/yourusername/antivirus-scanner.git
+git clone https://github.com/kkbadshakore-boop/Antivirus-Scanner.git
 cd antivirus-scanner
 
 
