@@ -1,39 +1,47 @@
-Python Antivirus Scanner
-Project Goal
+# Python Antivirus Scanner
+
+## Project Goal
 Build a simple signature-based antivirus scanner using:
 
-Python
-YARA Rules
-VirusTotal API
-Features
-Binary signature detection using YARA
-SHA256 file hashing
-VirusTotal threat intelligence check
-Recursive directory scanning
-🔍 How It Works Loads YARA rules Scans each file in selected directory Matches binary patterns against malware signatures Generates SHA256 hash Checks file hash with VirusTotal Displays detection results
+- Python
+- YARA Rules
+- VirusTotal API
 
-🐉 Installation (Kali Linux)
+## Features
+- Binary signature detection using YARA
+- SHA256 file hashing
+- VirusTotal threat intelligence check
+- Recursive directory scanning
+
+🐉 How to Run in Kali Linux
 
 1️⃣ Update System
 
-sudo apt update && sudo apt upgrade -y
+Open terminal and run: sudo apt update && sudo apt upgrade -y
 
-2️⃣ Install Required Tools
 
-sudo apt install python3 python3-pip yara -y
+2️⃣ Install Python (if not installed)
 
-3️⃣ Clone Repository
+Kali usually has Python3 preinstalled. Check: python3 --version
 
-git clone https://github.com/kkbadshakore-boop/Antivirus-Scanner.git cd antivirus-scanner
+If not installed:
 
-4️⃣ Install Python Dependencies
+sudo apt install python3 python3-pip -y
+
+3️⃣ Install YARA
+
+sudo apt install yara -y
+
+Verify: yara --version
+
+4️⃣ Clone Your GitHub Project
+
+git clone https://github.com/yourusername/antivirus-scanner.git
+cd antivirus-scanner
+
+5️⃣ Install Python Requirements
+pip3 install -r requirements.txt
+
+If pip3 gives permission error:
 
 pip3 install -r requirements.txt --break-system-packages
-
-5️⃣ Add VirusTotal API Key
-
-Create account on VirusTotal Get your API key Open scanner.py Replace: VIRUSTOTAL_API_KEY = "PASTE_YOUR_VIRUSTOTAL_API_KEY_HERE" with your real API key.
-
-▶ Run Scanner
-
-python3 scanner.py
